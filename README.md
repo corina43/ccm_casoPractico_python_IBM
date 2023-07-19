@@ -81,5 +81,15 @@ def test_calcular_suma_filas_columnas(self):
 ##Resultado de las Pruebas
 Al ejecutar el archivo test_matriz.py, las pruebas se llevarán a cabo y se mostrará el resultado de cada una de ellas. Si todas las pruebas pasan sin errores, significa que las funciones generar_matriz_cuadrada() y calcular_suma_filas_columnas() están funcionando correctamente. En caso contrario, se mostrarán mensajes de error indicando qué pruebas han fallado y podrás identificar y corregir los problemas en el código.
 
-<p aling="center"><img src="./img/Screenshot_256.png"/></p>
+```python
+PS C:\Users\ciorp\documents\ccm_casoPractico_python_IBM> python -m unittest  -v test
+test_calcular_suma_filas_columnas (test.TestMatriz.test_calcular_suma_filas_columnas) ... ok
+test_generar_matriz_cuadrada (test.TestMatriz.test_generar_matriz_cuadrada) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+
+
 
